@@ -1,4 +1,2 @@
-// Template Literals
-let specialString = `this is a temaplate literal ${1 + 2 + 3}`;
-console.log(typeof(specialString)); 
-console.log(specialString);
+let str = "hello";
+console.log(str.replace("lo","p"));
