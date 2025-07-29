@@ -1,5 +1,4 @@
-let i = 0;
-while (i <= 100) {
-    console.log("i", i);
-    i++;
+for (let num = 0; num <= 100; num++) {
+    if (num % 2 !== 0) 
+        console.log("num=",num);
 }
