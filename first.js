@@ -1,2 +1,5 @@
-let str = "hello";
-console.log(str.replace("lo","p"));
+let fullName = prompt("Enter your full name without spaces:");
+
+let username = "@" + fullName + fullName.length;
+console.log("Your username is: " + username);
+
