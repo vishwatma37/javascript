@@ -1,10 +1,3 @@
-let sum = 0;
-for (let i = 1; i <=  5; i++){
-    sum = sum + i;
+for (let i = 1; i >= 0; i++) {
+    console.log("i = ", i);
 }
-
-console.log("sum = ", sum);
-console.log("loop has ended");
-
-
-
