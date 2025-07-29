@@ -1,4 +1,11 @@
-for (let num = 0; num <= 100; num++) {
-    if (num % 2 === 0) 
-        console.log("num=",num);
+// practicle 2
+let gameNum = 25;
+
+let userNum = prompt("Guess the game number : ");
+if (userNum === gameNum) {
+    console.log("You guessed it right!");
+}else{
+    console.log("Wrong guess! The game number was " + gameNum);
 }
+   
+
