@@ -1,5 +1,15 @@
-let marvelHeroes = ["thor","spiderman","ironman","antman","Dr.Strang"];
+let arr = [1,2,3,4,5,6,7]
 
-console.log(marvelHeroes);
+// arr.splice(2,2,101,102);
+// console.log(arr);
 
-console.log(marvelHeroes.slice(1,3));
+
+// arr.splice(2,0,101);
+// console.log(arr)
+
+
+// arr.splice(3,1);
+// console.log(arr);
+
+arr.splice(3,1,101);
+console.log(arr);
