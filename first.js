@@ -1,5 +1,7 @@
-let foodItems = ["potato","apple","litchi","tomato"];
-
-foodItems.push("chips","burger","paneer");
+let foodItems = ["potato","apple","litchi","tomato"]
 
 console.log(foodItems);
+let deletedItem = foodItems.pop();
+foodItems.pop();
+console.log(foodItems);
+console.log("deleted",deletedItem);
