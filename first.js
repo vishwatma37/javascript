@@ -1,15 +1,9 @@
-let arr = [1,2,3,4,5,6,7]
+let companies = ["Bloomerg","Microsoft","Uber","Google","IBM","Netflix"];
+// companies.shift();
+// console.log(companies);
 
-// arr.splice(2,2,101,102);
-// console.log(arr);
+// companies.splice(2,1,"ola");
+// console.log(companies);
 
-
-// arr.splice(2,0,101);
-// console.log(arr)
-
-
-// arr.splice(3,1);
-// console.log(arr);
-
-arr.splice(3,1,101);
-console.log(arr);
+companies.push("Amazon");
+console.log(companies);
