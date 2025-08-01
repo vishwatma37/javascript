@@ -1,7 +1,7 @@
 // Let's Practice 
 
-function countVolwels (str) {
-    let count = 0;
+const countVow = (str) => {
+   let count = 0;
     for (const char of str) {
         if (
             char === "a" ||
@@ -15,6 +15,6 @@ function countVolwels (str) {
         }
     }
 
-    console.log(count);
+    return count;
 
-}
+} 
