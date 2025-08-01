@@ -1,9 +1,11 @@
-let companies = ["Bloomerg","Microsoft","Uber","Google","IBM","Netflix"];
-// companies.shift();
-// console.log(companies);
+let nums = [67,52,39];
 
-// companies.splice(2,1,"ola");
-// console.log(companies);
+let newArr = nums.map((val) => {
+    return val * 2;
+})
 
-companies.push("Amazon");
-console.log(companies);
+console.log(newArr);
+
+let calcSquare = (num) => {
+    console.log(num * num);
+};
