@@ -1,23 +1,20 @@
-//multiplication function
-function mul (a,b) {
-    return a * b;
+// Let's Practice 
+
+function countVolwels (str) {
+    let count = 0;
+    for (const char of str) {
+        if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u" 
+        
+            )    {
+            count++;
+        }
+    }
+
+    console.log(count);
+
 }
-
-mul(3,4);
-
-const arrowMul = (a,b) => {
-    console.log(a * b);
-};
-
-// sum function
-
-function sum(a,b) {
-    return a + b;
-}
-
-sum(3,4)
-
-const arrowSum = (a,b) => {
-    console.log(a + b);
-};
-
