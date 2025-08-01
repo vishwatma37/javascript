@@ -1,6 +1,9 @@
-let arr = [1,2,3,4,5,6,7]
+let arr = [1,2,3,4]
 
-let evenArr = arr.filter((val) => {
-    return val % 2 ===0;
-})
-console.log(evenArr);
+const output = arr.reduce((res,curr) => {
+
+
+    return res + curr;
+});
+
+console.log(output);
