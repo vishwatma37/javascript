@@ -1,20 +1,15 @@
-// Let's Practice 
+// for each Loop in Arrays
+// arr.forEach(callBackFunction)
+// callBackFunction:Here,it is a function to execute for each element in the Array
+// *A callback is a function passed as an argument to another function.
 
-const countVow = (str) => {
-   let count = 0;
-    for (const char of str) {
-        if (
-            char === "a" ||
-            char === "e" ||
-            char === "i" ||
-            char === "o" ||
-            char === "u" 
-        
-            )    {
-            count++;
-        }
-    }
+                // aar.forEach((val) => {
+                //     console.log(val);
+                // })
 
-    return count;
 
-} 
+let arr = [1,2,3,4,5];
+
+arr.forEach(function printVal(val) {
+    console.log(val);
+});
