@@ -1,9 +1,9 @@
-let arr = [1,2,3,4]
+let n = prompt("enter a number : ");
 
-const output = arr.reduce((res,curr) => {
+let arr = [];
 
+for (let i = 1; i <= n; i++) {
+    arr[i - 1] = i;
+}
 
-    return res + curr;
-});
-
-console.log(output);
+console.log(arr);
