@@ -1,11 +1,6 @@
-let nums = [67,52,39];
+let arr = [1,2,3,4,5,6,7]
 
-let newArr = nums.map((val) => {
-    return val * 2;
+let evenArr = arr.filter((val) => {
+    return val % 2 ===0;
 })
-
-console.log(newArr);
-
-let calcSquare = (num) => {
-    console.log(num * num);
-};
+console.log(evenArr);
