@@ -8,8 +8,26 @@
                 // })
 
 
-let arr = [1,2,3,4,5];
+// let arr = [1,2,3,4,5];
 
-arr.forEach(function printVal(val) {
-    console.log(val);
+// arr.forEach(function printVal(val) {
+    // console.log(val);
+// });
+
+let arr = ["pune", "delhi", "mumbai"];
+
+arr.forEach((val,idx,arr) => {
+    // console.log(val);
+    console.log(val.toUpperCase(),idx,arr);
 });
+
+let nums = [2,3,4,5,6]
+
+nums.forEach((num) => {
+
+    console.log(num*num);
+
+})
+
+
+
